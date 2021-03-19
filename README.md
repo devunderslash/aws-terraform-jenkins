@@ -20,7 +20,7 @@ Make sure you are logged into AWS first and then run the following:
 Once you have it up and running you can use it as it is for Jenkins from the get go by navigating to the IP address provided in the Terraform Output with the addition of the port :8080. If you are using it purely for this then you can remove iam.tf, s3.tf and the following line from compute.tf - `iam_instance_profile = aws_iam_instance_profile.jenkins-s3-role.name`
 
 
-
 ### TODO
 - Add ALB
 - Add DNS
+- Remove additional subnets, IGW and NAT overkill
