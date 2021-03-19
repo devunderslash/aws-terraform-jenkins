@@ -1,0 +1,10 @@
+#Local Jenkins Files from migration
+jenkins
+jenkins-mig.tgz
+
+#Local Terraform files
+.terraform/
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
