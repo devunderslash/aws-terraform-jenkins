@@ -2,7 +2,7 @@
 
 The contents of the following repo contain the steps outlined in this article. You will find the files for provisioning Jenkins on AWS via Terraform
 
-You also have a basic Docker file want to test your Jenkins configuartion locally.
+You also have a basic Docker file if you want to test your Jenkins configuartion locally - `docker-compose up`
 
 ## Prerequisites 
 - AWS Account and CLI installed
@@ -23,4 +23,4 @@ Once you have it up and running you can use it as it is for Jenkins from the get
 ### TODO
 - Add ALB
 - Add DNS
-- Remove additional subnets, IGW and NAT overkill
+- Remove additional subnets, IGW and NAT overkill - Done
