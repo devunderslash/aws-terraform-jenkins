@@ -1,6 +1,6 @@
 # Migrating Jenkins to EC2 with Terraform
 
-The contents of the following repo contain the steps outlined in this article. You will find the files for provisioning Jenkins on AWS via Terraform
+The contents of the following repo contain the steps outlined in [this article] (https://devunderslash.medium.com/migrating-jenkins-on-aws-using-terraform-2917590505f1). You will find the files for provisioning Jenkins on AWS via Terraform
 
 You also have a basic Docker file if you want to test your Jenkins configuartion locally - `docker-compose up`
 
